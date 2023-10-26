@@ -16,4 +16,75 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  min-width: 1000px;
+
+  background-color: blueviolet;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1.3rem;
+  width: 48.5rem;
+  height: 23rem;
+}
+
+.top{
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+ 
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.btn{
+
+  background-color: rgb(179, 89, 179);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.5s;
+
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+}
+
+
+.btn:hover{
+  background-color:rgb(86, 37, 86);
+  color: white;
+}
+
+
+.price{
+  font-size: 3.5rem;
+}
+
+.sr-only{
+  visibility: hidden;
+  font-size: 0;
+}
+
+.bot-r{
+  align-self: flex-start;
+}
+
+.image{
+  border-top-left-radius: 1.3rem;
+  border-bottom-left-radius: 1.3rem;
+  object-fit: cover;
+  height: 23rem;
+  width: 55rem;
 }
